@@ -1,0 +1,25 @@
+.navigation-list {
+    list-style-type: none;
+    width: 250px;
+
+    li {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        border: 1px solid #999;
+        margin: 2px 0px;
+        padding: 5px;
+        cursor: pointer;
+
+        &.active {
+            border: 1px solid #61dafb;
+            color: #61dafb;
+            font-weight: 700;
+            background-color: #282c34;
+        }
+
+        &:hover{
+            border: 1px solid #61dafb;
+        }
+    }
+}
