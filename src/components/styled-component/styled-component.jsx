@@ -21,6 +21,10 @@ const Button = styled.button`
   }
 `;
 
+export function StyledButton({onClickFn, buttonName}) {
+  return <Button type='button' $primary onClick={onClickFn}>{buttonName}</Button>
+}
+
 export default function StyledComponent() {
     return (
         <>

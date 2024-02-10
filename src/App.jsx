@@ -7,6 +7,7 @@ import { useState } from 'react';
 import StyledComponent from './components/styled-component/styled-component'
 import Form from './components/form/form'
 import Popup from './components/popup/popup'
+import Game from './components/tic-tac-toe/game'
 
 const menu = localStorage.getItem("menu") || 'main';
 
@@ -42,7 +43,8 @@ function App() {
     useState: (<TimeNow />),
     styledComponent: (<StyledComponent />),
     form: (<h2><Form /></h2>),
-    popup: (<Popup />)
+    popup: (<Popup />),
+    ticTacToe: (<Game />)
   }
 
   return (

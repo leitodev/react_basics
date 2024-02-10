@@ -21,6 +21,10 @@ const menu = [
     },{
         name: 'Popup using <dialog>',
         link: 'popup'
+    },
+    {
+        name: 'Tic-Tac-Toe',
+        link: 'ticTacToe'
     }
 ];
 

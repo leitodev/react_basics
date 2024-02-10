@@ -1,0 +1,26 @@
+
+#TicTacToe {
+    display: flex;
+
+    .board-row {
+        display: flex;
+    }
+
+    .square {
+        width: 125px;
+        height: 125px;
+        font-size: 160px;
+        line-height: 125px;
+        text-align: center;
+        border: 1px solid #484848;
+        cursor: pointer;
+
+        &:hover {
+            border: 2px solid #61dafb;
+        }
+    }
+
+    .game-history ul {
+        list-style-type: none;
+    }
+}
