@@ -38,7 +38,7 @@ export default function TicTacToe({ xIsNext, squares, onPlay }) {
 
         let newSquares = squares.slice(); // create new copy of array
         newSquares[i] = xIsNext ? 'X' : '0';
-        onPlay(newSquares)
+        onPlay(newSquares) // call parent function
     }
 
     return (

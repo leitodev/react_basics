@@ -7,7 +7,7 @@ export default function Game(){
     const [history, setHistory] = useState([Array(9).fill(null)]); // array [0] => null (9)
     const [currentMove, setCurrentMove] = useState(0);
     const currentSquares = history[currentMove];
-    const xIsNext = currentMove % 2 === 0;
+    const xIsNext = currentMove % 2 === 0; // X or O
 
     function handlePlay(nextSquares) {
         const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
